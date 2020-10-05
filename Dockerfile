@@ -21,6 +21,10 @@ ENV SCREEN_WIDTH 1920
 # By default, no parallelisation
 ENV ROBOT_THREADS 1
 
+# Set whether a failed test should be reattempted one time
+# By default, failed tests will not be reattempted
+ENV ROBOT_RERUN_FAILED false
+
 # Define the default user who'll run the tests
 ENV ROBOT_UID 1000
 ENV ROBOT_GID 1000
