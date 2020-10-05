@@ -24,7 +24,7 @@ else
 fi
 
 # Re-execute failed tests
-if [ $ROBOT_RERUN_FAILED -eq "TRUE" ]
+if [ $ROBOT_RERUN_FAILED -eq 1 ]
 then
     # No need for the overhead of Pabot if no parallelisation is required
     if [ $ROBOT_THREADS -eq 1 ]

@@ -74,7 +74,7 @@ By default, there is no parallelisation.
 It is possible to rerun tests that fail. Simple define the `ROBOT_RERUN_FAILED` environment variable, for example:
 
     docker run \
-        -e ROBOT_RERUN_FAILED=TRUE \
+        -e ROBOT_RERUN_FAILED=1 \
         ppodgorsek/robot-framework:latest
 
 By default, failed tests will not be rerun.

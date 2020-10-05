@@ -23,7 +23,7 @@ ENV ROBOT_THREADS 1
 
 # Set whether a failed test should be reattempted one time
 # By default, failed tests will not be reattempted
-ENV ROBOT_RERUN_FAILED false
+ENV ROBOT_RERUN_FAILED 0
 
 # Define the default user who'll run the tests
 ENV ROBOT_UID 1000
